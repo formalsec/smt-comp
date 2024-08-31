@@ -1,0 +1,5 @@
+(let-const symbol_0 i32)
+(let-const symbol_1 i32)
+(assert (i32.lt symbol_1 symbol_0))
+(assert (i32.ne symbol_0 symbol_1))
+(check-sat)

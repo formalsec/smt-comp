@@ -1,0 +1,5 @@
+(let-const symbol_4 i32)
+(let-const symbol_3 i32)
+(assert (bool.not (i32.gt symbol_4 (i32 3))))
+(assert (i32.gt symbol_3 (i32 3)))
+(check-sat)

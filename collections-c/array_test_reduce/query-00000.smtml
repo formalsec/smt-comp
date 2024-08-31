@@ -1,0 +1,3 @@
+(let-const symbol_0 i32)
+(assert (bool.not (i32.eq symbol_0 (i32.add symbol_0 (i32 0)))))
+(check-sat)

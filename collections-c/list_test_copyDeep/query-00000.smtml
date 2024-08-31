@@ -1,0 +1,3 @@
+
+(assert (bool.not (i32.ne (Ptr (i32 1049880) (i32 0)) (Ptr (i32 1049704) (i32 0)))))
+(check-sat)

@@ -1,0 +1,3 @@
+(let-const symbol_3 i32)
+(assert (i32.gt symbol_3 (i32 5)))
+(check-sat)
