@@ -1,3 +1,0 @@
-(let-const symbol_4 i32)
-(assert (i32.lt symbol_4 (i32 8388608)))
-(check-sat)

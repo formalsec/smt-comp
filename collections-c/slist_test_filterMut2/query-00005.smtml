@@ -1,7 +1,0 @@
-(let-const symbol_0 i32)
-(let-const symbol_1 i32)
-(let-const symbol_2 i32)
-(assert (i32.ge symbol_2 (i32 3)))
-(assert (bool.not (i32.ge symbol_1 (i32 3))))
-(assert (bool.not (i32.ge symbol_0 (i32 3))))
-(check-sat)

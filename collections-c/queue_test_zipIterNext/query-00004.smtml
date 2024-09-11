@@ -1,7 +1,0 @@
-(let-const symbol_3 i32)
-(let-const symbol_1 i32)
-(let-const symbol_6 i32)
-(assert (i32.eq (i32.shr (i32.shl (i32.extend_i24_u (extract symbol_1 0 1)) (i32 24)) (i32 24)) (i32 0)))
-(assert (i32.eq (i32.shr (i32.shl (i32.extend_i24_u (extract symbol_6 0 1)) (i32 24)) (i32 24)) (i32 0)))
-(assert (i32.eq (i32.shr (i32.shl (i32.extend_i24_u (extract symbol_3 0 1)) (i32 24)) (i32 24)) (i32 0)))
-(check-sat)

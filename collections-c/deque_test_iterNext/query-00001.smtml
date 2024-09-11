@@ -1,4 +1,0 @@
-(let-const symbol_0 i32)
-(let-const symbol_3 i32)
-(assert (i32.ne symbol_3 symbol_0))
-(check-sat)
