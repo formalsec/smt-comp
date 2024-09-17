@@ -1,1 +1,1 @@
-# Smtml Benchmarking Datasets
+# Smtml Selected SMT-Comp Datasets
